@@ -26,14 +26,14 @@ public class Bunga {
     @SerializedName("asal")
     @Expose
     private String asal;
-    @SerializedName("created_at")
-    @Expose
-    private String createdAt;
-    @SerializedName("updated_at")
-    @Expose
-    private String updatedAt;
+//    @SerializedName("created_at")
+//    @Expose
+//    private String createdAt;
+//    @SerializedName("updated_at")
+//    @Expose
+//    private String updatedAt;
 
-    public Bunga(Integer id, String nama, String nama_latin, String kingdom, String kelas, String jenis, String asal, String createdAt, String updatedAt) {
+    public Bunga(Integer id, String nama, String nama_latin, String kingdom, String kelas, String jenis, String asal) {
         this.id = id;
         this.nama = nama;
         this.nama_latin = nama_latin;
@@ -41,8 +41,7 @@ public class Bunga {
         this.kelas = kelas;
         this.jenis = jenis;
         this.asal = asal;
-        this.createdAt = createdAt;
-        this.updatedAt = updatedAt;
+
     }
 
     public Integer getId() {
@@ -101,21 +100,21 @@ public class Bunga {
         this.asal = asal;
     }
 
-    public String getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(String createdAt) {
-        this.createdAt = createdAt;
-    }
-
-    public String getUpdatedAt() {
-        return updatedAt;
-    }
-
-    public void setUpdatedAt(String updatedAt) {
-        this.updatedAt = updatedAt;
-    }
+//    public String getCreatedAt() {
+//        return createdAt;
+//    }
+//
+//    public void setCreatedAt(String createdAt) {
+//        this.createdAt = createdAt;
+//    }
+//
+//    public String getUpdatedAt() {
+//        return updatedAt;
+//    }
+//
+//    public void setUpdatedAt(String updatedAt) {
+//        this.updatedAt = updatedAt;
+  //  }
 
 
 }
