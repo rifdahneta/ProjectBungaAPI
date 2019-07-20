@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+<android.support.v7.widget.CardView
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/nama_bunga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Bunga"/>
+
+    <TextView
+        android:id="@+id/nama_latin"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Latin"/>
+
+    <TextView
+        android:id="@+id/asal_bunga"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asal Bunga"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+</LinearLayout>
