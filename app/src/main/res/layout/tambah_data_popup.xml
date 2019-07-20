@@ -55,9 +55,5 @@
         android:layout_height="wrap_content"
         android:text="Tambah"/>
     
-    <Button
-        android:id="@+id/btnHapus"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hapus"/>
+
 </LinearLayout>

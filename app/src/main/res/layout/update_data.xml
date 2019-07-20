@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UpdateData"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
 
-</android.support.constraint.ConstraintLayout>
+    <EditText
+        android:id="@+id/tambah_nama_bunga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Bunga"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/tambah_nama_latin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Latin"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/tambah_kingdom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kingdom"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/tambah_kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kelas"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/tambah_jenis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jenis"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/tambah_asal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Asal"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnUbah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah"/>
+
+    <Button
+        android:id="@+id/btnHapus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus"/>
+
+</LinearLayout>

@@ -21,7 +21,7 @@ public class TambahData extends AppCompatActivity {
     private static final String TAG = "TambahData";
     private ApiInterface apiInterface;
     EditText editNama, editNamaLatin, editKingdom, editKelas, editJenis, editAsal;
-    Button btnTambah, btnHapus;
+    Button btnTambah;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,7 +61,6 @@ public class TambahData extends AppCompatActivity {
         editJenis = findViewById(R.id.tambah_jenis);
         editAsal = findViewById(R.id.tambah_asal);
         btnTambah = findViewById(R.id.btnTambah);
-        btnHapus = findViewById(R.id.btnHapus);
         apiInterface = ApiService.getClient().create(ApiInterface.class);
     }
 
